@@ -1,0 +1,545 @@
+#navbar{
+    display: flex;
+    /* align-items: flex-start; */
+    position: sticky;
+    top: 0px;
+    margin: 0px 4px;
+    }
+#navbar h3{
+    color:rgb(62, 158, 202) ;
+}
+#navbar ul{
+    display: flex;
+    position: relative;
+    right: 0px;
+    padding-left: 900px;
+}
+#navbar ul .item{
+    align-items: flex-end;
+}
+#navbar ul li a{
+    color: black; 
+    flex-direction: column;
+    display: block;
+    padding: 3px 3.2px;
+    border-radius: 20px;
+    margin: 4px 11px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: white;
+    background-color:rgb(62, 158, 202) ;
+}
+#navbar ul {
+    list-style: none;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    color: white    ;
+    padding: 30px 400px;
+    height: 280px;
+    margin: 75px;
+}
+#home h1{
+    background-color:  rgb(62, 158, 202);
+    width: 450px;
+    padding: 10px;
+    margin: 4px;
+    font-size: 30px;
+}
+#home p{
+    background-color:  rgb(62, 158, 202);
+    width: 450px;
+    padding: 9px;
+    margin: 4px;
+    font-size: 17px;
+}
+#home h3{
+    background-color: rgb(62, 158, 202);
+    width:200px;
+    padding: 10px;
+    margin: 4px;
+    font-size: 30px;
+}
+ #home::before{
+    content: "";
+    background:url('../1.jpg')no-repeat center center/cover;
+    position: absolute;
+    top: 70px;
+    left: 0px;
+    height: 60%;
+    width: 100%;
+    z-index: -1; 
+} 
+#home2{
+    padding-top: 0px;
+}
+#home2 #p1{
+    font-size: 40px;
+    text-align: center;
+}
+#home2 p{
+    color: rgb(62, 158, 202);
+}
+#home2 #p2{
+    font-size: 18px;
+    text-align: center;
+}
+#home3 #p3{
+    color: rgb(62, 158, 202);
+    font-size: 25px;  
+}
+#services{
+    margin: 30px;
+    display: flex;
+}
+#services .box{
+    padding:34px;
+    margin: 3px 6px;
+    border-bottom: 34px solid  rgb(62, 158, 202);
+    background-color: rgb(245,245,245);
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    white-space: pre-line;
+}
+#service .box p{
+    font-size: 25px;
+}
+#services .box img{
+    height: 200px;
+    margin: auto;
+    display: block;
+}
+#services .box .fa{
+    display: flex;
+    justify-content: center;
+    color:  rgb(62, 158, 202);
+    font-size: 40px;
+}
+#services  .box .learn{
+    display: flex;
+    margin: 40px;
+    }
+#services .box .learn .fa{
+    display: flex;
+    position: relative;
+    bottom: 30px;
+       left: 2px;
+       right: 0px;
+}
+#services .box .learn a{
+    color: rgb(62, 158, 202);
+    text-decoration: none;
+    list-style: none;
+}
+.center{
+    text-align: center;
+}
+#service{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#service .box{
+    padding:34px;
+    margin: 3px 6px;
+    width: 100%;
+    white-space: pre-line;
+    background-color: rgb(245,245,245);
+    font-size: 30px;
+    border-bottom: 34px solid  rgb(62, 158, 202);
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+#service .box p{
+    font-size: 18px;
+}
+#service .box .fa{
+    display: flex;
+    justify-content: center;
+    color:  rgb(62, 158, 202);
+    font-size: 40px;
+}
+#service  .box .learn{
+    display: flex;
+    margin: 40px;
+}
+#service .box .learn .fa{
+    display: flex;
+    position: relative;
+    bottom:30px;
+    left: 3px;
+    right: 0px;
+}
+#service .box .learn a{
+    color: rgb(62, 158, 202);
+    text-decoration: none;
+    list-style: none;
+}
+#home4 #p4{
+    color: rgb(62, 158, 202);
+    padding: 0px 19.9px;
+    font-size: 25px;
+}
+#home5 #p5{
+    color: rgb(62, 158, 202);
+    padding: 0px 19.9px;
+    font-size: 25px;
+}
+#service1{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#service1 .box{
+    padding:34px;
+    margin: 3px 6px;
+    width: 100%;
+    height: 280px;
+    background-color: rgb(245,245,245);
+    font-size: 30px;
+}
+#service1 .box p{
+    font-size: 25px;
+}
+#service1 .sc h2{
+    text-align: center;
+    color:  rgb(62, 158, 202) ;
+}
+#service1  .fa{
+    color: rgb(62, 158, 202);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 45px;
+}
+#service1 .learn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 80px;
+}
+#service1 .learn .fa{
+    display: flex;
+    position: relative;
+    bottom: 0px;
+    left: 2px;
+}
+#service1 .learn a{
+    color: rgb(62, 158, 202);
+    text-decoration: none;
+    list-style: none;
+}
+#service5{
+    margin: 30px;
+    display: flex;
+}
+#service5 .box{
+    padding:34px;
+    margin: 3px 6px;
+    height: 600px;
+    width: 50%;
+    background-color: rgb(245,245,245);
+    font-size: 20px;
+    border-bottom: 34px solid  rgb(62, 158, 202);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#service5 .box p{
+    font-size: 20px;
+    white-space: pre-line;
+}
+#service5  img{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#service5 .box .fa{
+    color: rgb(62, 158, 202);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+    font-size: 45px;
+}
+#service5  .box .learn{
+    display: flex;
+    margin: 60px;
+}
+#service5 .box .learn .fa{
+    display: flex;
+    position: relative;
+    bottom: 12px;
+       left: 2px;
+       right: 0px;
+}
+#service5 .box .learn a{
+    color: rgb(62, 158, 202);
+    text-decoration: none;
+    list-style: none;
+}
+#service5 .box{
+    display: flex;
+    flex-direction: column;
+}
+#service6{
+    margin: 30px;
+    display: flex;
+}
+#service6 h2{
+    color: rgb(62, 158, 202) ;
+}
+#service6 .box{
+    padding:34px;
+    margin: 3px 6px;
+    width: 30%;
+    }
+#service6 .box #p6{
+    font-weight: bold;
+    font-size: 18px;
+}
+#service6 .box #p7{
+    font-size: 18px;
+    white-space: pre-line;
+}
+#service6 .box #p3{
+    height: 0px;
+    font-size: 18px;
+}
+#service6 .box #p8{
+    font-size: 18px;
+    padding: 34.3px 26.6px;
+    margin-bottom: 0px;
+    white-space: pre-line;
+}
+#service6 .box #p9{
+    font-size: 18px;
+    white-space: pre-line;
+}
+#service6 .box #p10{
+    font-size: 18px;
+    white-space: pre-line;
+}
+#service6 .box #clients{
+     width:320px;
+}
+#clients{
+    display: flex;
+    flex-wrap: wrap;
+}
+#service6 #clients img{
+    height: 70px;
+    width: 30%;
+    padding: 5px;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+}
+footer{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+footer div{
+    display: flex;
+    flex-direction: row;
+    padding:4px 6px ;
+    display: flex;
+    flex-direction: row;
+}
+footer div #p11{
+    color: rgb(62, 158, 202);
+    padding: 0px 3px;
+   }
+footer #font{
+   position: relative;
+bottom: 10px;
+   left: 2px;
+   right: 0px;
+   padding-left: 700px;
+}
+footer .fa{
+    font-size: 35px;
+    color: rgb(62, 158, 202);
+    padding: 10px;
+}
+
+
+/* responsive */
+@media only screen and (max-width:1298px) {
+   
+    #navbar{
+      display: flex;
+        align-items: center;
+        justify-content: center;
+        /* margin-right: auto; */
+        flex-direction: column-reverse; 
+       
+    }
+    #navbar ul li a{
+        font-size: 1rem;
+        padding: 0px 7px;
+        padding-bottom: 8px;
+    }
+    #home h1{
+        position: absolute;
+        top: 140px;
+        right: 50px;
+    }
+    #home p{
+        position: absolute;
+        top:200px;
+        right: 50px;
+    }
+    #home h3{
+        position: absolute;
+        top:245px;
+        right:300px;
+    }
+
+    #home::before{
+        height: 400px;
+        width: 1000px;
+        }
+    #home2{
+        font-size: 40px;
+    text-align: center;
+    width:1000px;
+    margin-bottom: 50px;
+    }
+    #services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 950px;
+    }
+    #services .box{
+    padding: 14px;
+    margin: 0px 0px;
+    width: 800px;
+    margin-bottom: 15px;
+    }
+    #service{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 950px;
+    
+    
+    }
+    #service .box{
+        padding: 14px;
+        margin: 0px 0px;
+        width: 800px;
+        margin-bottom: 15px;
+
+    }
+    #service1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 950px;
+                    }
+#service1 .box{
+    padding: 14px;
+    margin: 0px 0px;
+    width: 800px;
+    margin-bottom: 15px;
+
+
+                  
+                    
+                    }
+                    #service5{
+                        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 950px;
+                        }
+                        #service5 .box{
+                            padding: 14px;
+                            margin: 0px 0px;
+                            width: 800px;
+                            margin-bottom: 15px;
+                        }
+                        #service5 .box h2{
+                            position: relative;
+                            top: 17px;
+                        }
+                        #service6{
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            justify-content: center;
+                            width: 1500px;
+                            }
+                            #service6 .box{
+                                padding: 14px;
+                                margin: 0px 0px;
+                                width: 800px;
+                                margin-bottom: 15px;
+                            
+                            }
+                            #service6 .box #clients img{
+                                width: 66px;
+                                padding: 6px;
+                                /* height: auto; */
+                                flex-wrap: wrap;
+                               
+                            }
+                            #service6 .box #clients{
+                             flex-wrap: wrap;
+                            }
+                            
+                            footer div{
+                                display: flex;
+                               
+                                padding:2px 2px ;
+                                display: flex;
+                                flex-direction: row;
+                                align-items: center;
+                                justify-content: center;
+                            }
+                            footer div #p11{
+                                
+                                padding: 4px 3px;
+                                align-items: center;
+                                justify-content: center;
+
+                               }
+                            footer #font{
+                               position: relative;
+                            bottom: 10px;
+                               left: 50px;
+                               right: 0px;
+                               padding-left: 700px;
+                            }
+                            footer .fa{
+                                font-size: 35px;
+                                color: rgb(62, 158, 202);
+                                padding: 10px;
+                            }
+                            
+                            
+
+
+
+ }
